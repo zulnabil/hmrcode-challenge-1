@@ -1,6 +1,7 @@
 # hmrcode-challenge-1
 bikin endpoint `POST /api/member`
 
+```
 const Validator = require('validatorjs')
 
 const middleWare = (req, res, next) => {
@@ -28,3 +29,4 @@ const middleWare = (req, res, next) => {
 }
 
 module.exports = middleWare
+```
