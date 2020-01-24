@@ -1,7 +1,7 @@
 # hmrcode-challenge-1
 bikin endpoint `POST /api/member`
 
-```
+```javascript
 const Validator = require('validatorjs')
 
 const middleWare = (req, res, next) => {
